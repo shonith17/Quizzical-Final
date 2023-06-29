@@ -150,6 +150,9 @@ p {
     font-size: 0.6rem;
     padding-inline: 0.5em;
   }
+  body {
+    padding-block: 5em;
+  }
   .container {
     margin-inline: auto;
     margin-block: auto;
