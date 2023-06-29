@@ -1,0 +1,143 @@
+body {
+  background-color: #F5F7FB;
+}
+.container {
+  max-width: 50em;
+  height: 40em;
+  margin-inline: auto;
+  margin-block: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-block: 5em;
+  padding-inline: 1em;
+  font-family: inter;
+
+}
+
+button {
+  background-color: #4D5B9E;
+  border: none;
+  padding-block: 1em;
+  padding-inline: 2em;
+  border-radius: 15px;
+  color: #F5F7FB;
+  font-family: karla;
+}
+
+button:hover {
+  background-color: #7888d6;
+  cursor: pointer;
+}
+h1 {
+  font-family: karla;
+  font-size: clamp(1rem, 50vw, 3rem);
+  margin-bottom: 0;
+  color: #293264;
+}
+
+p {
+  margin-bottom: 5em;
+  color: #293264;
+}
+
+.question {
+  font-family: karla;
+  margin-bottom: 1em;
+  color: #293264;
+}
+
+.answers {
+  font-family: inter;
+  font-size: 0.625rem;
+  display: flex;
+  gap: 1rem;
+  cursor: pointer;
+  margin-bottom: 3em;
+  color: #293264;
+}
+
+
+.answers > * {
+  border: 1px solid  #293264;
+  padding-inline: clamp(2em, 2.5em, 3em);
+  padding-block: 1em;
+  border-radius: 12px;
+}
+
+/* Styling for the selected (clicked) answer */
+.on {
+  background-color: #D6DBF5;
+  border: none;
+}
+
+.not-on {
+  background-color: transparent;
+  border: 1px solid  #293264;
+  opacity: 50%;
+}
+
+/* Styling for the selected (clicked) correct answer */
+.selected.right {
+  background-color: #94D7A2;
+  border: none;
+  opacity: 100%;
+}
+
+/* Styling for the selected (clicked) incorrect answer */
+.selected.wrong {
+  background-color: #F8BCBC;
+  border: none;
+  opacity: 50%;
+}
+
+.flex {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+
+.score, .loading {
+  color: #293264;
+  font-family: karla;
+}
+
+
+
+
+/* Blob */
+
+.blob {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.blob1-svg {
+  position: absolute;
+  animation: floatAnimation 10s ease-in-out infinite;
+}
+
+.blob2-svg {
+  position: absolute;
+  animation: floatAnimation2 10s ease-in-out infinite;
+}
+
+@keyframes floatAnimation {
+  0% {transform: scale(1) translate(20vw, 20vh);}
+  38% {transform: scale(0.8) translate(60vw, 60vh) rotate(160deg);}
+  78% {transform: scale(1.5) translate(45vw, 45vh) rotate(-70deg);}
+  100% {transform: scale(1) translate(20vw, 20vh);}
+}
+
+@keyframes floatAnimation2 {
+  0% {transform: scale(1) translate(60vw, 60vh);}
+  38% {transform: scale(0.8) translate(45vw, 45vh) rotate(160deg);}
+  78% {transform: scale(1.5) translate(20vw, 20vh) rotate(-70deg);}
+  100% {transform: scale(1) translate(60vw, 60vh);}
+}
