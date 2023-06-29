@@ -147,7 +147,7 @@ p {
 /* For small screens */
 @media (max-width: 767.98px) {
   .answers > * {
-    font-size: 0.5rem;
+    font-size: 0.6rem;
     padding-inline: 0.5em;
   }
   .container {
