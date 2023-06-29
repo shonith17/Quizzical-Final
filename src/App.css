@@ -150,9 +150,7 @@ p {
     padding-inline: 0.5em;
   }
 
-  .container {
-    margin-top: 3rem;
-  }
+
   @keyframes floatAnimation {
     0% {transform: scale(1) translate(0vw, 0vh);}
     38% {transform: scale(0.8) translate(50vw, 50vh) rotate(160deg);}
