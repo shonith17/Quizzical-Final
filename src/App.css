@@ -29,6 +29,7 @@ button:hover {
   background-color: #7888d6;
   cursor: pointer;
 }
+
 h1 {
   font-family: karla;
   font-size: clamp(1rem, 50vw, 3rem);
@@ -66,7 +67,9 @@ p {
   padding-block: 0.5em;
   border-radius: 12px;
 }
-
+.checkAnswers {
+  margin-top: 3rem;
+}
 /* Styling for the selected (clicked) answer */
 .on {
   background-color: #97a1d0;

@@ -136,7 +136,7 @@ function App() {
             <>
               {questionElements}
               {questionElements && !checkedAnswers && (
-                <button onClick={checkAnswers}>Check Answers</button>
+                <button className="checkAnswers" onClick={checkAnswers}>Check Answers</button>
               )}
               {checkedAnswers && (
                 <div className="flex">
