@@ -41,7 +41,7 @@ function App() {
 
       try {
         const response = await fetch(
-          "https://opentdb.com/api.php?amount=5"
+          "https://opentdb.com/api.php?amount=5&category=17"
         );
         const data = await response.json();
         setTriviaData(data.results);
