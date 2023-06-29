@@ -129,7 +129,7 @@ function App() {
           <button onClick={handleStartButton}>Start Quiz</button>
         </div>
       ) : (
-        <div className="container">
+        <div className="container-questions">
           {loading ? (
             <div className="loading">Loading...</div>
           ) : (

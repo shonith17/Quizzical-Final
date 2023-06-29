@@ -2,7 +2,7 @@ body {
   background-color: #F5F7FB;
 }
 .container {
-  height: 100svh;
+  height: 100vh;
   margin-inline: auto;
   margin-block: auto;
   display: flex;
@@ -151,6 +151,9 @@ p {
     padding-inline: 1em;
   }
 
+  .container-questions {
+    padding-top: 7rem;
+  }
   @keyframes floatAnimation {
     0% {transform: scale(1) translate(0vw, 0vh);}
     38% {transform: scale(0.8) translate(50vw, 50vh) rotate(160deg);}
