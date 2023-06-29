@@ -153,6 +153,7 @@ p {
   .container {
     margin-inline: auto;
     margin-block: auto;
+    padding-block: auto;
   }
 
   @keyframes floatAnimation {
