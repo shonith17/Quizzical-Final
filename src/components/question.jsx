@@ -30,7 +30,6 @@ function Question(props) {
     <>
       <div className="question">{he.decode(props.question)}</div>
       <div className="answers">{answerElements}</div>
-      <hr style={{ backgroundColor: 'purple' }} />
     </>
   );
 }
