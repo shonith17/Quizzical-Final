@@ -140,7 +140,7 @@ function App() {
               )}
               {checkedAnswers && (
                 <div className="flex">
-                  <div className="score">{`You scored ${score / 2}/5 correct answers`}</div>
+                  <div className="score">{`You scored ${score}/5 correct answers`}</div>
                   <button onClick={handleNewGameButton}>Play Again</button>
                 </div>
               )}
