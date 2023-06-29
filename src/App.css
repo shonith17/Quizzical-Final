@@ -10,9 +10,10 @@ body {
   align-items: center;
   justify-content: center;
   padding-inline: clamp(1em, 5vw, 5rem);
-  gap: 0.5em;
+  gap: 1.5em;
   font-family: inter;
 }
+
 
 button {
   background-color: #4D5B9E;
@@ -43,7 +44,7 @@ p {
 .question {
   font-family: karla;
   font-size: clamp(1rem, 3vw, 1.5rem);
-  margin-bottom: 1em;
+
   color: #293264;
 }
 
@@ -153,6 +154,7 @@ p {
 
   .container-questions {
     padding-top: 5rem;
+    gap: 1.5em;
   }
   @keyframes floatAnimation {
     0% {transform: scale(1) translate(0vw, 0vh);}
