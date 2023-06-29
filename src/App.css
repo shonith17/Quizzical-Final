@@ -3,7 +3,7 @@ body {
 }
 .container {
   max-width: 50em;
-  height: 40em;
+  height: 35em;
   margin-inline: auto;
   margin-block: 50px;
   display: flex;
@@ -153,21 +153,21 @@ p {
   .container {
     margin-inline: auto;
     margin-block: auto;
-    padding-top: 5em;
+    padding-top: 10em;
   
   }
 
   @keyframes floatAnimation {
     0% {transform: scale(1) translate(0vw, 0vh);}
-    38% {transform: scale(0.8) translate(60vw, 60vh) rotate(160deg);}
-    78% {transform: scale(1.5) translate(45vw, 45vh) rotate(-70deg);}
+    38% {transform: scale(0.8) translate(50vw, 50vh) rotate(160deg);}
+    78% {transform: scale(1.5) translate(25vw, 25vh) rotate(-70deg);}
     100% {transform: scale(1) translate(0vw, 0vh);}
   }
   
   @keyframes floatAnimation2 {
-    0% {transform: scale(1) translate(60vw, 60vh);}
-    38% {transform: scale(0.8) translate(45vw, 45vh) rotate(160deg);}
-    78% {transform: scale(1.5) translate(20vw, 20vh) rotate(-70deg);}
-    100% {transform: scale(1) translate(60vw, 60vh);}
+    0% {transform: scale(1) translate(40vw, 40vh);}
+    38% {transform: scale(0.8) translate(25vw, 25vh) rotate(160deg);}
+    78% {transform: scale(1.5) translate(10vw, 10vh) rotate(-70deg);}
+    100% {transform: scale(1) translate(40vw, 40vh);}
   }
 }
