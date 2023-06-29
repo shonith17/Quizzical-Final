@@ -149,8 +149,15 @@ p {
     padding-inline: 0.5em;
   }
   .container {
+    height: 100vh;
+    margin-inline: auto;
+    margin-block: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     padding-block: auto;
-    padding-inline: 3em;
+    padding-inline: auto;
     font-family: inter;
   }
   @keyframes floatAnimation {
